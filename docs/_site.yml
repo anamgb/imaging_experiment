@@ -3,7 +3,7 @@ navbar:
   title: " "
   left:
     - text: "Demonstration instructions"
-      href: demo.html
+      href: index.html
     - text: "Converging vs. diverging lenses, real and virtual images"
       href: topic.html
     - text: "About"
