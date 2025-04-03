@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -244,7 +245,10 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="demo.html">Demonstration instructions</a>
+</li>
+<li>
+  <a href="topic.html">Converging vs. diverging lenses, real and virtual images</a>
 </li>
 <li>
   <a href="about.html">About</a>
@@ -270,18 +274,15 @@ $(document).ready(function () {
 <ul>
 <li><a href="#introduction" id="toc-introduction"><span
 class="toc-section-number">1</span> Introduction</a></li>
-<li><a href="#educational-materials"
-id="toc-educational-materials"><span class="toc-section-number">2</span>
-Educational materials</a></li>
 <li><a href="#bill-of-materials" id="toc-bill-of-materials"><span
-class="toc-section-number">3</span> Bill of Materials</a></li>
+class="toc-section-number">2</span> Bill of materials</a></li>
 <li><a href="#experimental-setup" id="toc-experimental-setup"><span
-class="toc-section-number">4</span> Experimental setup</a>
+class="toc-section-number">3</span> Experimental setup</a>
 <ul>
 <li><a href="#diagram" id="toc-diagram"><span
-class="toc-section-number">4.1</span> Diagram</a></li>
+class="toc-section-number">3.1</span> Diagram</a></li>
 <li><a href="#step-by-step" id="toc-step-by-step"><span
-class="toc-section-number">4.2</span> Step by step</a></li>
+class="toc-section-number">3.2</span> Step by step</a></li>
 </ul></li>
 </ul>
 </div>
@@ -289,42 +290,243 @@ class="toc-section-number">4.2</span> Step by step</a></li>
 <p><span class="math display">\[\\[10mm]\]</span></p>
 <div id="introduction" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum
-justo in vehicula varius. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Maecenas a augue condimentum, placerat dui ut,
-consequat enim. Integer eu bibendum ligula, vitae porttitor turpis. Nam
-eu volutpat elit. Vivamus efficitur semper vulputate. Nam ornare diam
-turpis.</p>
-<p><span class="math display">\[\\[5mm]\]</span></p>
+<p>In this demo, you will observe how convex lenses work and how they
+are used in everyday objects such as video projectors, cameras, and
+magnifying glasses. During the demo (and with the accompanying
+educational materials) you will learn the science behind how convex
+lenses work: the focal point and how they form real or virtual images
+depending on the distance to the object to image.</p>
+<p>The activity is suitable for teachers, students, or just someone
+interested in optics.</p>
 </div>
-<div id="educational-materials" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Educational
-materials</h1>
-<p>Space for educational materials about the physics (with option to
-download the PDFs or similar).</p>
-<p><span class="math display">\[\\[5mm]\]</span></p>
-</div>
-<div id="bill-of-materials" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Bill of Materials</h1>
-<ul>
-<li>Placeholder item 1.</li>
-<li>Placeholder item 2.</li>
-</ul>
-<p><span class="math display">\[\\[5mm]\]</span></p>
-</div>
-<div id="experimental-setup" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Experimental setup</h1>
-<div id="diagram" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Diagram</h2>
-<p><img src="img/placeholder_usaf.jpg" width="30%" style="display: block; margin: auto auto auto 0;" /></p>
-</div>
-<div id="step-by-step" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Step by step</h2>
+<div id="bill-of-materials" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Bill of materials</h1>
+<p>This is a suggested list of materials, but make this demonstration
+your own by exchanging for the materials you have available in your lab,
+house, or nearest store.</p>
 <ol style="list-style-type: decimal">
-<li>Step 1.</li>
-<li>Step 2.</li>
-<li>…</li>
+<li>Lamp or other light source (cellphone light for example).</li>
+<li>Image sample.</li>
+<li>Convex lens with holder (can be replaced with a magnifying
+glass).</li>
+<li>Screen to view the projected image.</li>
 </ol>
+<p>For the guide these are the materials used:</p>
+<div id="light-source-image-sample" class="section level4 unnumbered">
+<h4 class="unnumbered">Light source + image sample</h4>
+<p>Printed samples with regular printed and fixed to a common desk lamp
+with tape.</p>
+<figure>
+<img src="img/samples.png" alt="Image samples." style="width: 100%; height: auto;">
+<figcaption>
+Image samples.
+</figcaption>
+</figure>
+<figure>
+<img src="img/source_and_lens.png" alt="Light source." style="width: 100%; height: auto;">
+<figcaption>
+Light source.
+</figcaption>
+</figure>
+</div>
+<div id="convex-lens-and-3d-printed-mount"
+class="section level4 unnumbered">
+<h4 class="unnumbered">Convex lens and 3D printed mount</h4>
+<p>Some mounts were printed to fix loose lenses. For the experience a
+<code>f = 50 mm</code> lens was used.</p>
+<figure>
+<img src="img/lenses.png" alt="Lenses in custom mounts." style="width: 100%; height: auto;">
+<figcaption>
+Lenses in custom mounts.
+</figcaption>
+</figure>
+</div>
+<div id="holders-and-rail" class="section level4 unnumbered">
+<h4 class="unnumbered">Holders and rail</h4>
+<p>Similarly, holders were printed that can be used on a common
+aluminium profile.</p>
+<figure>
+<img src="img/holders.png" alt="Holders in aluminium profile." style="width: 100%; height: auto;">
+<figcaption>
+Holders in aluminium profile.
+</figcaption>
+</figure>
+</div>
+<div id="screen" class="section level4 unnumbered">
+<h4 class="unnumbered">Screen</h4>
+<p>A solid black screen was placed for projecting the real images in the
+experiments.</p>
+<figure>
+<img src="img/screen_focused.png" alt="Holders in aluminium profile." style="width: 100%; height: auto;">
+<figcaption>
+Holders in aluminium profile.
+</figcaption>
+</figure>
+<blockquote>
+<p><strong>Note:</strong> the files for recreating the 3D printed pieces
+of the lens holders and the lens mounts will be made available in the
+future in this same site.</p>
+</blockquote>
+</div>
+</div>
+<div id="experimental-setup" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Experimental setup</h1>
+<div id="diagram" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Diagram</h2>
+<p>Place the elements and align them before continuing to the step by
+step describing the different positions for image generation.</p>
+<figure>
+<img src="img/experimental_setup.png" alt="Experimental setup." style="width: 100%; height: auto;">
+<figcaption>
+Experimental setup.
+</figcaption>
+</figure>
+<p>In each step remember to move the position of the sample and then
+find the focused image by moving the screen closer or further away from
+the lens.</p>
+</div>
+<div id="step-by-step" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Step by step</h2>
+<p>For helping the procedure and visualization refer to the educational
+materials under the “Converging vs. diverging lenses, real and virtual
+images” tab.</p>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th><strong>Object position</strong></th>
+<th><strong>Image type</strong></th>
+<th><strong>Orientation</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beyond 2F (<code>u &gt; 2f</code>)</td>
+<td>Real</td>
+<td>Inverted</td>
+<td>Smaller</td>
+</tr>
+</tbody>
+</table>
+<pre class="markdown"><code>Applications: focusing a distant image on the film or image sensor of a camera.</code></pre>
+<figure>
+<img src="img/ph_2Fplus.png" alt="Beyond 2F (`u > 2f`)." style="width: 100%; height: auto;">
+<figcaption>
+Beyond 2F (<code>u &gt; 2f</code>).
+</figcaption>
+</figure>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th><strong>Object position</strong></th>
+<th><strong>Image type</strong></th>
+<th><strong>Orientation</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>At 2F (<code>u = 2f</code>)</td>
+<td>Real</td>
+<td>Inverted</td>
+<td>Same</td>
+</tr>
+</tbody>
+</table>
+<pre class="markdown"><code>Applications: experiments where you want ot observ the actual size of the sample.</code></pre>
+<figure>
+<img src="img/ph_2F.png" alt="At 2F (`u = 2f`)." style="width: 100%; height: auto;">
+<figcaption>
+At 2F (<code>u = 2f</code>).
+</figcaption>
+</figure>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th><strong>Object position</strong></th>
+<th><strong>Image type</strong></th>
+<th><strong>Orientation</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Between F and 2F</td>
+<td>Real</td>
+<td>Inverted</td>
+<td>Larger</td>
+</tr>
+</tbody>
+</table>
+<pre class="markdown"><code>Applications: the size of the projected image can be increased such as the case of projectors.</code></pre>
+<figure>
+<img src="img/ph_Fto2F.png" alt="Between F and 2F." style="width: 100%; height: auto;">
+<figcaption>
+Between F and 2F.
+</figcaption>
+</figure>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th><strong>Object position</strong></th>
+<th><strong>Image type</strong></th>
+<th><strong>Orientation</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>At F (<code>u = f</code>)</td>
+<td>No image</td>
+<td>–</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="img/ph_F.png" alt="At F (`u = f`)." style="width: 100%; height: auto;">
+<figcaption>
+At F (<code>u = f</code>).
+</figcaption>
+</figure>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th><strong>Object position</strong></th>
+<th><strong>Image type</strong></th>
+<th><strong>Orientation</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inside F (<code>u &lt; f</code>)</td>
+<td><strong>Virtual</strong></td>
+<td>Upright</td>
+<td>Larger</td>
+</tr>
+</tbody>
+</table>
+<pre class="markdown"><code>Applications: magnifying glass.</code></pre>
+<figure>
+<img src="img/ph_F-.png" alt="Inside F (`u < f`)." style="width: 100%; height: auto;">
+<figcaption>
+Inside F (<code>u &lt; f</code>).
+</figcaption>
+</figure>
+<blockquote>
+<h3 id="licenses">Licenses</h3>
+<p><strong>Instructions, documentation:</strong> Creative Commons
+Attribution Share Alike 4.0</p>
+<p>(Planned) <strong>Hardware (3D printing models):</strong> CERN Open
+Hardware Licence Version 2 - Strongly Reciprocal</p>
+<p>(Planned) <strong>Software:</strong> GNU GPL V3.0</p>
+</blockquote>
 </div>
 </div>
 

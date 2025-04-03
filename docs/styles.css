@@ -1,0 +1,119 @@
+body {
+  width: 100%; 
+  background-color: #f0f0f0;  
+}
+
+p {
+  margin-bottom: 15px;  
+  line-height: 1.6;      
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;  
+  color: #07393C;     
+}
+
+h1 {
+  font-weight: bold;    
+  font-size: 32px;      
+  color: #07393C;       
+}
+
+h2 {
+  font-weight: bold;    
+  font-size: 28px;      
+  color: #07393C;       
+}
+
+h3 {
+  font-weight: bold;    
+  font-size: 24px;      
+  color: #07393C;       
+}
+
+body {
+  font-family: "Arial", Helvetica, sans-serif;  
+  font-size: 16px; 
+}
+
+table {
+  border-collapse: collapse; 
+  margin: 20px auto;        
+  width: 70% !important;  
+}
+
+th, td {
+  padding: 5px 10px;        
+  text-align: left;         
+  border: 1px solid black;  
+}
+
+th {
+  background-color: #07393C;  
+  color: white;  
+  font-weight: bold;
+  border-bottom: 1px solid black; 
+  text-align: center;
+}
+
+td:first-child {
+  background-color: #93B7BE;  
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;  
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;  
+}
+
+blockquote {
+  background-color: #8C9A9E;  
+  border-left: 5px solid black;  
+  padding: 10px 20px;  
+  margin: 20px auto;  
+  font-size: 16px; 
+  color: black;  
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);  
+  width: 90% !important; 
+}
+
+blockquote p {
+  font-family: "Arial", serif;  
+}
+
+figure {
+  width: 80%;                
+  margin: 20px auto;         
+  text-align: center;        
+}
+
+figure img {
+  width: 100%;               
+  height: auto;              
+}
+
+figcaption {
+  font-style: italic;        
+  color: #07393C;            
+  margin-top: 10px;          
+}
+
+hr {
+  border: none;  
+  border-top: 4px solid #222222;  
+  margin-top: 20px;  
+  margin-bottom: 20px;  
+  width: 75%;  
+}
+
+pre {
+  width: 80%;  
+  margin: auto;  
+  background-color: #f4f4f4;  
+  padding: 10px;  
+  border: 1px solid #ccc;  
+  white-space: pre-wrap;  
+  word-wrap: break-word;  
+}

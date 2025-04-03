@@ -1,8 +1,9 @@
 ---
 title: "About this project"
+css: styles.css
 ---
 
-Have you ever wondered how images and light travel through the camera or a magnifying glass? This project aims to provide instructions for you to set your own experiment or outreach activity to explore this physical phenomenon. Learn about the difference between creating a real images or observing a virtual images and how convex lenses work using a magnifying glass. 
+Have you ever wondered how images and light travel through the camera or a magnifying glass? This project aims to provide instructions for you to set your own experiment or outreach activity to explore this physical phenomenon. Learn the difference between creating a real image or observing virtual images and how convex lenses work using a magnifying glass. 
 
 ### Who is this for?
 
@@ -14,7 +15,26 @@ Provide guidance for setting up an outreach experience for learning about imagin
 
 * Instructions for the basic experimental setup.
 * Educational materials to guide the outreach experience.
-* Entry points for contributions from users to extend and enrich the experience.
+* (Planned) Entry points for contributions from users to extend and enrich the experience.
+
+
+### Authors
+
+* Ana Guisao-Betancur
+* Catherine Swain
+* Joseph Wolfenden
+
+
+**Affiliation:** Quasar Group, University of Liverpool.
+
+> ### Licenses
+>
+> **Instructions, documentation:** Creative Commons Attribution Share Alike 4.0
+>
+> (Planned) **Hardware (3D printing models):** CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+>
+> (Planned) **Software:** GNU GPL V3.0
+
  
   
 
