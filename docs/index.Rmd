@@ -81,7 +81,7 @@ A solid black screen was placed for projecting the real images in the experiment
 
 # Experimental setup
 
-## Diagram
+## Diagram {-}
 
 Place the elements and align them before continuing to the step by step describing the different positions for image generation.
 
@@ -92,7 +92,7 @@ Place the elements and align them before continuing to the step by step describi
 
 In each step remember to move the position of the sample and then find the focused image by moving the screen closer or further away from the lens.
 
-## Step by step
+## Step by step {-}
 
 For helping the procedure and visualization refer to the educational materials under the "Converging vs. diverging lenses, real and virtual images" tab. 
 
