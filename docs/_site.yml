@@ -1,8 +1,8 @@
 name: "imaging_experiment-website"
 navbar:
-  title: " "
+  title: ">>"
   left:
-    - text: "Demonstration instructions"
+    - text: "Demonstration activity"
       href: index.html
     - text: "Converging vs. diverging lenses, real and virtual images"
       href: topic.html
