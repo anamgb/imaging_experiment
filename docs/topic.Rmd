@@ -9,7 +9,6 @@ output:
 css: styles.css
 ---
 
-$$\\[10mm]$$
 
 # Types of lenses
 
